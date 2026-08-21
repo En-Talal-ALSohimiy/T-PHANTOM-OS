@@ -29,6 +29,22 @@
 
 ---
 
+## Visual Preview
+
+<div align="center">
+
+<img src="assets/screenshots/desktop-preview.svg" alt="T-PHANTOM OS desktop visual preview" width="100%">
+
+<br><br>
+
+<img src="assets/screenshots/security-showcase.svg" alt="T-PHANTOM OS security showcase" width="100%">
+
+</div>
+
+> The visuals above are official project artwork for the repository. Runtime behavior and release qualification are documented separately so presentation material is not confused with test evidence.
+
+---
+
 ## Download
 
 <div align="center">
@@ -83,14 +99,7 @@ The project follows a focused principle: provide a coherent security workstation
 
 ### Designed for
 
-- Digital forensics investigators
-- DFIR and incident-response teams
-- SOC and security analysts
-- Authorized penetration testers
-- Security researchers
-- Reverse-engineering practitioners
-- Cybersecurity students and training labs
-- CTF and controlled lab environments
+Digital forensics investigators, DFIR and incident-response teams, SOC and security analysts, authorized penetration testers, security researchers, reverse-engineering practitioners, cybersecurity students, training labs, CTFs, and controlled research environments.
 
 > **Authorization matters.** T‑PHANTOM OS is intended for lawful security work, education, research, and systems you own or are explicitly authorized to assess.
 
@@ -100,27 +109,13 @@ The project follows a focused principle: provide a coherent security workstation
 
 ### ما هو T‑PHANTOM OS؟
 
-**T‑PHANTOM OS** نظام تشغيل أمني مخصص لبيئات الأمن السيبراني والتحقيق الجنائي الرقمي، ويقدم بيئة عملية ثنائية اللغة **العربية والإنجليزية** للعمل في مجالات:
-
-- التحقيق الجنائي الرقمي **Digital Forensics**
-- الاستجابة للحوادث **DFIR / Incident Response**
-- الاختبار الأمني والاختراق المصرح **Authorized Penetration Testing**
-- التحليل العكسي **Reverse Engineering**
-- تحليل الشبكات والأدلة الرقمية
-- الأبحاث الأمنية والخصوصية
-- التدريب والمعامل الأكاديمية وبيئات CTF
+**T‑PHANTOM OS** نظام تشغيل أمني مخصص لبيئات الأمن السيبراني والتحقيق الجنائي الرقمي، ويقدم بيئة عملية ثنائية اللغة **العربية والإنجليزية** للعمل في التحقيق الجنائي الرقمي، الاستجابة للحوادث، الاختبار الأمني والاختراق المصرح، التحليل العكسي، تحليل الشبكات، الأبحاث الأمنية، الخصوصية، التدريب والمعامل الأكاديمية وبيئات CTF.
 
 الهدف ليس جمع أكبر عدد ممكن من الأدوات، بل بناء بيئة متماسكة وواضحة تساعد المختص على الوصول إلى أدواته ومسارات عمله بصورة منظمة، مع التمييز بوضوح بين ما تم اختباره فعليًا وما يزال ضمن خطة التطوير.
-
-### الفئات المستهدفة
-
-المحققون الجنائيون الرقميون، فرق الاستجابة للحوادث، محللو SOC، مختبرو الاختراق المصرح لهم، الباحثون الأمنيون، الطلاب، الجامعات، مراكز التدريب، ومعامل الأمن السيبراني.
 
 ---
 
 ## Desktop & Identity
-
-T‑PHANTOM OS carries a dedicated identity through the boot experience, installer, login screen, desktop, and system branding.
 
 - Custom T‑PHANTOM boot identity
 - T‑PHANTOM login experience
@@ -129,7 +124,7 @@ T‑PHANTOM OS carries a dedicated identity through the boot experience, install
 - Arabic and English environment
 - Default hostname: `t-phantom`
 - Dedicated **About Developer** desktop entry
-- Official repository vector identity under [`assets/brand`](assets/brand)
+- Official repository artwork under [`assets/brand`](assets/brand) and [`assets/screenshots`](assets/screenshots)
 
 ---
 
@@ -157,8 +152,6 @@ Arabic support is part of the product identity, not an afterthought. T‑PHANTOM
 ---
 
 ## System requirements
-
-Recommended baseline for installation or virtualization:
 
 - 64-bit x86 processor
 - 4 GB RAM minimum
@@ -208,9 +201,7 @@ Project qualification deliberately separates **tested** behavior from **planned*
 
 ## Responsible use
 
-T‑PHANTOM OS includes or may integrate security tools that can affect computers, networks, accounts, or data. Use them only in environments where you have explicit authorization.
-
-The project does not endorse unauthorized access, disruption, credential theft, surveillance, or unlawful activity.
+T‑PHANTOM OS includes or may integrate security tools that can affect computers, networks, accounts, or data. Use them only in environments where you have explicit authorization. The project does not endorse unauthorized access, disruption, credential theft, surveillance, or unlawful activity.
 
 ---
 
