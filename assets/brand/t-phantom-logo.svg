@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">T-PHANTOM OS logo</title>
+  <desc id="desc">Dark shield with cyan to gold edge and phantom hood mark.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#39E7EA"/>
+      <stop offset="0.52" stop-color="#66D9C8"/>
+      <stop offset="1" stop-color="#C9B56D"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#113039"/>
+      <stop offset="1" stop-color="#061318"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="248" r="170" fill="none" stroke="#10313A" stroke-width="2"/>
+  <circle cx="256" cy="248" r="133" fill="none" stroke="#123943" stroke-width="2"/>
+  <path d="M256 54 400 107v137c0 102-58 174-144 222-86-48-144-120-144-222V107Z" fill="#07181E" stroke="url(#edge)" stroke-width="10" filter="url(#glow)"/>
+  <path d="M174 256c19-96 67-139 110-139 49 0 91 45 111 120-46-28-90-39-132-30-35 8-63 24-89 49Z" fill="#1C555D"/>
+  <path d="M195 244c26-24 58-38 96-42 33-3 65 3 96 18-25-39-59-63-99-63-39 0-73 29-93 87Z" fill="#0B2027" opacity=".78"/>
+  <path d="M153 344h206" stroke="url(#edge)" stroke-width="5" stroke-linecap="round" opacity=".88"/>
+  <text x="256" y="391" text-anchor="middle" fill="#F1FFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="4">T-PHANTOM</text>
+  <text x="256" y="423" text-anchor="middle" fill="#90AEB5" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" letter-spacing="5">OS</text>
+</svg>
