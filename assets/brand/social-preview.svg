@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">T-PHANTOM OS social preview</title>
+  <desc id="desc">Dark T-PHANTOM OS social card for repository sharing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#041015"/><stop offset="1" stop-color="#0A2027"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#39E7EA"/><stop offset=".55" stop-color="#66D9C8"/><stop offset="1" stop-color="#C9B56D"/></linearGradient>
+    <radialGradient id="halo"><stop offset="0" stop-color="#1C555D" stop-opacity=".45"/><stop offset="1" stop-color="#061318" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1000" cy="320" r="310" fill="url(#halo)"/>
+  <path d="M1000 89 1157 147v139c0 109-62 187-157 239-95-52-157-130-157-239V147Z" fill="#06161C" stroke="url(#edge)" stroke-width="10"/>
+  <path d="M915 301c18-96 67-140 113-140 50 0 93 45 114 122-47-29-92-39-135-30-35 8-64 24-92 48Z" fill="#1C555D"/>
+  <text x="88" y="220" fill="#F1FFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="74" font-weight="800" letter-spacing="3">T-PHANTOM OS</text>
+  <rect x="90" y="247" width="470" height="4" rx="2" fill="url(#edge)"/>
+  <text x="90" y="304" fill="#A7BFC4" font-family="DejaVu Sans,Arial,sans-serif" font-size="25">Cyber Forensics • DFIR • Authorized Pentest</text>
+  <text x="90" y="344" fill="#A7BFC4" font-family="DejaVu Sans,Arial,sans-serif" font-size="25">Reverse Engineering • Privacy</text>
+  <text x="90" y="405" fill="#E5EFF1" font-family="DejaVu Sans,Arial,sans-serif" font-size="24">التحقيق الجنائي الرقمي • الاستجابة للحوادث • الاختبار الأمني المصرح</text>
+  <text x="90" y="476" fill="#6FE1DE" font-family="DejaVu Sans,Arial,sans-serif" font-size="19">Arabic + English  •  x86_64  •  KDE Plasma</text>
+  <text x="90" y="548" fill="#728E95" font-family="DejaVu Sans,Arial,sans-serif" font-size="17">Design &amp; Development: Eng. Talal Fawaz Al-Sohimiy</text>
+</svg>
