@@ -18,13 +18,46 @@
 [![Language](https://img.shields.io/badge/Interface-Arabic%20%7C%20English-C9B56D?style=for-the-badge)](#bilingual-by-design)
 [![SHA256](https://img.shields.io/badge/SHA--256-VERIFIED-2EA44F?style=for-the-badge)](#integrity)
 
-[![Download ISO](https://img.shields.io/badge/⬇_DOWNLOAD-T--PHANTOM.iso-35D8DC?style=for-the-badge&labelColor=071A20)](#download)
+[![Download ISO](https://img.shields.io/badge/⬇_DOWNLOAD-T--PHANTOM.iso-35D8DC?style=for-the-badge&labelColor=071A20)](https://drive.google.com/uc?export=download&id=1naFZI6lveSYTdfP-UqyewSRyHx8tuEIF)
+[![Google Drive](https://img.shields.io/badge/OPEN-GOOGLE%20DRIVE-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1naFZI6lveSYTdfP-UqyewSRyHx8tuEIF/view?usp=sharing)
 [![Installation](https://img.shields.io/badge/INSTALLATION-GUIDE-C9B56D?style=for-the-badge&labelColor=071A20)](docs/INSTALLATION.md)
 [![التثبيت](https://img.shields.io/badge/دليل_التثبيت-العربي-35D8DC?style=for-the-badge&labelColor=071A20)](docs/INSTALLATION_AR.md)
 
 **[English](#english) · [العربية](#العربية) · [Download](#download) · [Security](SECURITY.md) · [Roadmap](ROADMAP.md)**
 
 </div>
+
+---
+
+## Download
+
+<div align="center">
+
+### T‑PHANTOM.iso
+
+**x86_64 / amd64 · ~4 GB · Arabic + English · KDE Plasma**
+
+[![Download T-PHANTOM](https://img.shields.io/badge/⬇_DOWNLOAD%20NOW-T--PHANTOM.iso-35D8DC?style=for-the-badge&labelColor=071A20)](https://drive.google.com/uc?export=download&id=1naFZI6lveSYTdfP-UqyewSRyHx8tuEIF)
+
+[Open the official Google Drive file](https://drive.google.com/file/d/1naFZI6lveSYTdfP-UqyewSRyHx8tuEIF/view?usp=sharing) · [Download & verification notes](DOWNLOAD.md)
+
+</div>
+
+### Integrity
+
+Official SHA‑256:
+
+```text
+86ed41941fcaaaafbf9042e9ea18f45b623c51a073cef461234ef7ff76f4d51a  T-PHANTOM.iso
+```
+
+Verify after downloading:
+
+```bash
+sha256sum T-PHANTOM.iso
+```
+
+> **Security rule:** Only use an ISO whose SHA‑256 exactly matches the checksum published in this repository.
 
 ---
 
@@ -121,44 +154,6 @@ Arabic support is part of the product identity, not an afterthought. T‑PHANTOM
 | VM validation | **Passed for the current build** |
 | Physical-hardware validation | **Pending final release qualification** |
 
-### Integrity
-
-Official ISO SHA‑256:
-
-```text
-86ed41941fcaaaafbf9042e9ea18f45b623c51a073cef461234ef7ff76f4d51a  T-PHANTOM.iso
-```
-
-Verify on Linux:
-
-```bash
-sha256sum T-PHANTOM.iso
-```
-
-The result must exactly match the published checksum.
-
-See [`SHA256SUMS`](SHA256SUMS).
-
----
-
-## Download
-
-### T‑PHANTOM.iso
-
-**Architecture:** x86_64 / amd64  
-**Approximate size:** 4 GB  
-**Integrity:** SHA‑256 published and verified
-
-The ISO itself is intentionally **not stored directly in this GitHub repository** because of its size. The official public mirror link will be placed here after the upload/mirror is finalized.
-
-> **Security rule:** Never trust an ISO from an unofficial mirror unless its SHA‑256 exactly matches the checksum published in this repository.
-
-**Official SHA‑256**
-
-```text
-86ed41941fcaaaafbf9042e9ea18f45b623c51a073cef461234ef7ff76f4d51a
-```
-
 ---
 
 ## System requirements
@@ -189,6 +184,7 @@ Hardware support varies by chipset and device. Physical-hardware testing remains
 
 | Document | Purpose |
 |---|---|
+| [`DOWNLOAD.md`](DOWNLOAD.md) | Official download and integrity verification |
 | [`docs/INSTALLATION.md`](docs/INSTALLATION.md) | Installation guide |
 | [`docs/INSTALLATION_AR.md`](docs/INSTALLATION_AR.md) | دليل التثبيت بالعربية |
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Project architecture and design principles |
