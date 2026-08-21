@@ -1,0 +1,54 @@
+name: Bug report
+description: Report a reproducible T-PHANTOM OS defect
+title: "[Bug] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve T-PHANTOM OS. Do not use this form for security vulnerabilities; follow SECURITY.md instead.
+  - type: input
+    id: release
+    attributes:
+      label: T-PHANTOM release/build
+      placeholder: "5.3 / ISO checksum if known"
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware or VM configuration
+      placeholder: "CPU, RAM, GPU, storage, firmware/UEFI, VM platform..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. ...\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Remove passwords, tokens, private keys and personal data before posting.
+  - type: checkboxes
+    id: authorization
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have removed secrets and sensitive information from this report.
+          required: true
