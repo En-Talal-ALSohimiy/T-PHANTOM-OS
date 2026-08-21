@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest an improvement for T-PHANTOM OS
+title: "[Feature] "
+labels: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or workflow need
+      description: Describe the security, DFIR, usability, localization, hardware, or release-engineering need.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - DFIR / Digital Forensics
+        - Authorized Pentesting
+        - Reverse Engineering
+        - Network Analysis
+        - Desktop / UX
+        - Arabic / Localization
+        - Installer / Boot
+        - Hardware Compatibility
+        - Security Hardening
+        - Build / Release Engineering
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: How should this be validated?
+      description: Describe a concrete test or acceptance criterion if possible.
