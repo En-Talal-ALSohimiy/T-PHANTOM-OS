@@ -1,48 +1,63 @@
 # T‑PHANTOM OS Roadmap
 
-This roadmap distinguishes **planned** work from **validated** release behavior.
+This roadmap distinguishes **completed release work**, **active engineering work**, and **planned work**. Roadmap entries are not claims of current functionality unless they are explicitly marked as completed.
+
+## Completed for the 5.3 public release line
+
+- T‑PHANTOM OS user-facing identity and KDE Plasma integration.
+- Arabic and English operating environment.
+- VM validation for the current build.
+- Physical-hardware / USB internal testing on tested hardware.
+- AppArmor and nftables availability checks.
+- Curated 44-entry cybersecurity tool-index validation.
+- SHA‑256 publication for the exact released ISO.
+- SourceForge primary public distribution.
+- Google Drive secondary mirror.
+- Public installation, integrity, security and release documentation.
 
 ## Near term
 
-- Physical-device qualification on representative UEFI hardware.
-- Wi‑Fi, Ethernet, audio, graphics, suspend/resume and storage compatibility matrix.
-- Public download mirror strategy with checksum verification.
-- Screenshot gallery and installation walkthrough.
-- Improve onboarding for first-time users.
-- Expand bilingual documentation.
+- Expand physical-device qualification across additional representative UEFI hardware.
+- Build a documented compatibility matrix for Wi‑Fi, Ethernet, audio, graphics, storage and suspend/resume.
+- Add genuine runtime screenshot coverage to the repository alongside presentation artwork.
+- Improve first-run onboarding and bilingual operational documentation.
+- Expand DFIR, incident-response, network-analysis and reverse-engineering workflow guides.
+- Progressively integrate project-specific T‑PHANTOM cybersecurity tools after testing and stability validation.
 
 ## Security and reliability
 
 - Repeatable pre-release system checks.
 - Package and configuration regression tests.
-- Installer validation across BIOS/UEFI scenarios.
-- Release artifact checksum publication.
-- Document provenance and third-party licensing.
-- Establish a vulnerability-handling workflow.
+- Installer validation across additional BIOS/UEFI scenarios.
+- Stronger artifact provenance documentation.
+- Review project-authored licensing separately from third-party package licensing.
+- Formalize vulnerability handling and coordinated-disclosure workflow.
+- Add signed release metadata when the release process supports it.
+
+## Distribution engineering
+
+- Maintain SourceForge as the primary public ISO distribution channel for the 5.3 line.
+- Maintain an independent secondary mirror.
+- Publish synchronized checksums and release notes across official channels.
+- Automate release metadata generation.
+- Build a dedicated T‑PHANTOM package/repository strategy for project-owned components.
 
 ## DFIR and security workflows
 
-- Curated workflow documentation rather than tool-count growth.
 - Evidence-handling guidance.
 - Incident-response playbooks.
 - Network-analysis workflow references.
 - Reverse-engineering workspace guidance.
 - Controlled lab and training profiles.
-
-## Distribution
-
-- Official project website.
-- Primary ISO mirror.
-- Secondary mirror.
-- Signed release metadata when the release process supports it.
-- Public release notes and compatibility notes.
+- SOC-oriented workflow documentation where practical and testable.
 
 ## Long term
 
 - Automated image-build pipeline.
-- Reproducible release metadata.
+- More reproducible release metadata.
 - Hardware compatibility database.
 - Hardened update and release channels.
+- Dedicated repositories for T‑PHANTOM packages and project-authored tools.
 - Community documentation and reviewed contributions.
 
-> Roadmap entries are intentions, not promises of current functionality. See the README and CHANGELOG for validated release capabilities.
+> See the README and CHANGELOG for validated release capabilities. A planned item should not be presented as shipped until it passes the relevant validation.
