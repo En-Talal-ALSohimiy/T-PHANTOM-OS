@@ -1,0 +1,31 @@
+name: Publish T-PHANTOM OS 5.3
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-v5.3.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Publish GitHub Release v5.3
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v5.3 >/dev/null 2>&1; then
+            echo "Release v5.3 already exists; nothing to do."
+          else
+            gh release create v5.3 \
+              --target main \
+              --title "T-PHANTOM OS 5.3" \
+              --notes-file RELEASE_NOTES_5.3.md \
+              --latest
+          fi
