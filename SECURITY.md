@@ -8,7 +8,7 @@ Please do **not** open a public GitHub issue for a vulnerability that could expo
 
 Report security issues privately by email:
 
-**en.talal.alsohimiy@gmail.com**
+**talal@talalsuhaimi.com**
 
 Include, when possible:
 
@@ -38,6 +38,10 @@ Examples of security issues that should be reported privately include:
 - vulnerabilities introduced by T‑PHANTOM-specific configuration or code
 
 Upstream vulnerabilities in third-party software should normally also be reported to the relevant upstream project.
+
+## Artifact integrity
+
+The official T‑PHANTOM OS 5.3 ISO checksum is published in `SHA256SUMS` and `DOWNLOAD.md`. If a downloaded ISO does not match the published SHA‑256 exactly, do not boot or install it.
 
 ## Responsible use
 
