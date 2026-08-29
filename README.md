@@ -12,16 +12,15 @@
 
 **نظام تشغيل أمني عربي/إنجليزي للتحقيق الجنائي الرقمي، الاستجابة للحوادث، الاختبار الأمني المصرح، التحليل العكسي والخصوصية.**
 
-[![Release](https://img.shields.io/badge/Release-5.3-35D8DC?style=for-the-badge)](#release)
+[![Release](https://img.shields.io/badge/Release-5.3-35D8DC?style=for-the-badge)](#release-53)
 [![Architecture](https://img.shields.io/badge/Architecture-x86__64-0B1F26?style=for-the-badge)](#system-requirements)
 [![Desktop](https://img.shields.io/badge/Desktop-KDE%20Plasma-1D99F3?style=for-the-badge&logo=kde&logoColor=white)](#desktop--identity)
 [![Language](https://img.shields.io/badge/Interface-Arabic%20%7C%20English-C9B56D?style=for-the-badge)](#bilingual-by-design)
 [![SHA256](https://img.shields.io/badge/SHA--256-VERIFIED-2EA44F?style=for-the-badge)](#integrity)
 
-[![Download ISO](https://img.shields.io/badge/⬇_DOWNLOAD-T--PHANTOM.iso-35D8DC?style=for-the-badge&labelColor=071A20)](https://drive.google.com/uc?export=download&id=1naFZI6lveSYTdfP-UqyewSRyHx8tuEIF)
-[![Google Drive](https://img.shields.io/badge/OPEN-GOOGLE%20DRIVE-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1naFZI6lveSYTdfP-UqyewSRyHx8tuEIF/view?usp=sharing)
-[![Installation](https://img.shields.io/badge/INSTALLATION-GUIDE-C9B56D?style=for-the-badge&labelColor=071A20)](docs/INSTALLATION.md)
-[![التثبيت](https://img.shields.io/badge/دليل_التثبيت-العربي-35D8DC?style=for-the-badge&labelColor=071A20)](docs/INSTALLATION_AR.md)
+[![SourceForge Download](https://img.shields.io/badge/⬇_PRIMARY_DOWNLOAD-SourceForge-35D8DC?style=for-the-badge&labelColor=071A20)](https://sourceforge.net/projects/t-phantom-os/files/T-PHANTOM-OS-5.3/T-PHANTOM.iso/download)
+[![Google Drive Mirror](https://img.shields.io/badge/MIRROR-Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1naFZI6lveSYTdfP-UqyewSRyHx8tuEIF/view?usp=sharing)
+[![Website](https://img.shields.io/badge/OFFICIAL-talalsuhaimi.com-C9B56D?style=for-the-badge)](https://talalsuhaimi.com)
 
 **[English](#english) · [العربية](#العربية) · [Download](#download) · [Security](SECURITY.md) · [Roadmap](ROADMAP.md)**
 
@@ -41,23 +40,31 @@
 
 </div>
 
-> The visuals above are official project artwork for the repository. Runtime behavior and release qualification are documented separately so presentation material is not confused with test evidence.
+> Repository visuals are presentation assets. Release qualification and tested behavior are documented separately so artwork is not confused with test evidence.
 
 ---
 
 ## Download
 
-<div align="center">
+### Primary distribution — SourceForge
 
-### T‑PHANTOM.iso
+**T‑PHANTOM OS 5.3**  
+**File:** `T-PHANTOM.iso`  
+**Architecture:** x86_64 / amd64  
+**Size:** approximately 4.1 GB  
+**Desktop:** KDE Plasma  
+**Languages:** Arabic + English
 
-**x86_64 / amd64 · ~4 GB · Arabic + English · KDE Plasma**
+**Primary download:**  
+https://sourceforge.net/projects/t-phantom-os/files/T-PHANTOM-OS-5.3/T-PHANTOM.iso/download
 
-[![Download T-PHANTOM](https://img.shields.io/badge/⬇_DOWNLOAD%20NOW-T--PHANTOM.iso-35D8DC?style=for-the-badge&labelColor=071A20)](https://drive.google.com/uc?export=download&id=1naFZI6lveSYTdfP-UqyewSRyHx8tuEIF)
+**SourceForge project:**  
+https://sourceforge.net/projects/t-phantom-os/
 
-[Open the official Google Drive file](https://drive.google.com/file/d/1naFZI6lveSYTdfP-UqyewSRyHx8tuEIF/view?usp=sharing) · [Download & verification notes](DOWNLOAD.md)
+**Secondary mirror — Google Drive:**  
+https://drive.google.com/file/d/1naFZI6lveSYTdfP-UqyewSRyHx8tuEIF/view?usp=sharing
 
-</div>
+See [`DOWNLOAD.md`](DOWNLOAD.md) for verification instructions.
 
 ### Integrity
 
@@ -67,13 +74,13 @@ Official SHA‑256:
 86ed41941fcaaaafbf9042e9ea18f45b623c51a073cef461234ef7ff76f4d51a  T-PHANTOM.iso
 ```
 
-Verify after downloading:
+Verify on Linux:
 
 ```bash
 sha256sum T-PHANTOM.iso
 ```
 
-> **Security rule:** Only use an ISO whose SHA‑256 exactly matches the checksum published in this repository.
+> **Security rule:** Do not boot or install an ISO whose SHA‑256 does not exactly match the value above.
 
 ---
 
@@ -81,25 +88,29 @@ sha256sum T-PHANTOM.iso
 
 ### What is T‑PHANTOM OS?
 
-T‑PHANTOM OS is a security-focused Linux operating system built for practical cyber operations and digital investigation workflows. It provides a bilingual Arabic/English environment for **DFIR, digital forensics, authorized penetration testing, reverse engineering, incident response, security analysis, and privacy-oriented work**.
+T‑PHANTOM OS is a Saudi-developed, security-focused Linux distribution for practical cybersecurity and digital-investigation workflows. It provides a bilingual Arabic/English environment for **DFIR, digital forensics, authorized penetration testing, incident response, reverse engineering, network analysis, security research, and privacy-oriented work**.
 
-The project follows a focused principle: provide a coherent security workstation with an intentional identity, validated core components, and clear documentation instead of presenting an unstructured collection of tools.
+The goal is a coherent security workstation with an intentional identity, organized workflows, release validation, and clear documentation rather than an unstructured collection of tools.
+
+### Upstream transparency
+
+T‑PHANTOM OS is developed on top of Linux and uses upstream components from the Debian/Kali and KDE ecosystems. The project does **not** claim authorship over Linux, Debian, Kali Linux, KDE Plasma, or third-party security tools. T‑PHANTOM-specific work covers distribution engineering, build and integration, product identity, bilingual UX, workflow organization, validation, documentation, and project-created components. See [`NOTICE.md`](NOTICE.md).
 
 ### Core focus
 
 | Area | Purpose |
 |---|---|
 | **DFIR** | Incident response, evidence handling, host and artifact analysis |
-| **Digital Forensics** | Disk, file-system, registry, timeline and artifact investigation |
+| **Digital Forensics** | Disk, file-system, timeline and artifact investigation |
 | **Authorized Pentesting** | Security assessment where explicit authorization exists |
 | **Reverse Engineering** | Binary and software-analysis workflows |
-| **Network Analysis** | Packet, protocol and DNS-oriented investigation |
-| **Privacy** | Security-conscious workstation design and operational hygiene |
+| **Network Analysis** | Packet, protocol, DNS and network-security investigation |
+| **Security Research** | Controlled research, training labs and CTF environments |
 | **Bilingual UX** | Arabic and English for regional and international use |
 
 ### Designed for
 
-Digital forensics investigators, DFIR and incident-response teams, SOC and security analysts, authorized penetration testers, security researchers, reverse-engineering practitioners, cybersecurity students, training labs, CTFs, and controlled research environments.
+Digital-forensics investigators, DFIR and incident-response teams, SOC and security analysts, authorized penetration testers, security researchers, reverse-engineering practitioners, cybersecurity students, training labs, and controlled research environments.
 
 > **Authorization matters.** T‑PHANTOM OS is intended for lawful security work, education, research, and systems you own or are explicitly authorized to assess.
 
@@ -109,45 +120,59 @@ Digital forensics investigators, DFIR and incident-response teams, SOC and secur
 
 ### ما هو T‑PHANTOM OS؟
 
-**T‑PHANTOM OS** نظام تشغيل أمني مخصص لبيئات الأمن السيبراني والتحقيق الجنائي الرقمي، ويقدم بيئة عملية ثنائية اللغة **العربية والإنجليزية** للعمل في التحقيق الجنائي الرقمي، الاستجابة للحوادث، الاختبار الأمني والاختراق المصرح، التحليل العكسي، تحليل الشبكات، الأبحاث الأمنية، الخصوصية، التدريب والمعامل الأكاديمية وبيئات CTF.
+**T‑PHANTOM OS** توزيعة لينكس أمنية مطوّرة في السعودية ومخصصة لبيئات الأمن السيبراني والتحقيق الجنائي الرقمي. تقدم بيئة عملية ثنائية اللغة **العربية والإنجليزية** للعمل في التحقيق الجنائي الرقمي، الاستجابة للحوادث، اختبار الاختراق المصرح، التحليل العكسي، تحليل الشبكات، الأبحاث الأمنية، التدريب والمعامل وبيئات CTF.
 
-الهدف ليس جمع أكبر عدد ممكن من الأدوات، بل بناء بيئة متماسكة وواضحة تساعد المختص على الوصول إلى أدواته ومسارات عمله بصورة منظمة، مع التمييز بوضوح بين ما تم اختباره فعليًا وما يزال ضمن خطة التطوير.
+يركز المشروع على بناء بيئة أمنية متماسكة ومنظمة مع توثيق واضح وفصل صريح بين ما تم اختباره فعليًا وما يزال ضمن خطة التطوير.
+
+يعتمد النظام على مكونات مفتوحة المصدر من منظومات Linux وDebian/Kali وKDE مع الحفاظ على حقوق ونِسَب المشاريع الأصلية. عمل T‑PHANTOM يتركز في هندسة التوزيعة والبناء والتكامل والهوية وتجربة الاستخدام العربية/الإنجليزية وتنظيم مسارات العمل والاختبارات والتوثيق والمكونات الخاصة بالمشروع.
 
 ---
 
 ## Desktop & Identity
 
-- Custom T‑PHANTOM boot identity
-- T‑PHANTOM login experience
+- T‑PHANTOM boot and login identity
 - KDE Plasma desktop
-- Dark security-focused visual language
 - Arabic and English environment
 - Default hostname: `t-phantom`
-- Dedicated **About Developer** desktop entry
-- Official repository artwork under [`assets/brand`](assets/brand) and [`assets/screenshots`](assets/screenshots)
+- T‑PHANTOM visual identity and wallpaper
+- Dedicated developer-information entry
+- Project artwork under [`assets/brand`](assets/brand) and [`assets/screenshots`](assets/screenshots)
 
 ---
 
 ## Bilingual by design
 
-Arabic support is part of the product identity, not an afterthought. T‑PHANTOM is intended to work naturally for Arabic-speaking security practitioners while preserving correct English terminology for technical and international workflows.
+Arabic support is part of the product identity. T‑PHANTOM is intended to work naturally for Arabic-speaking security practitioners while preserving correct English technical terminology for international workflows.
 
 ---
 
-## Release
+## Release 5.3
 
 | Item | Value |
 |---|---|
 | Product | **T‑PHANTOM OS** |
-| Release line | **5.3** |
+| Release | **5.3** |
 | Architecture | **x86_64 / amd64** |
 | ISO filename | `T-PHANTOM.iso` |
-| ISO size | ~4 GB |
+| ISO size | approximately **4.1 GB** |
 | Desktop | KDE Plasma |
 | Languages | Arabic + English |
 | Boot media | USB / ISO / virtual machine |
-| VM validation | **Passed for the current build** |
-| Physical-hardware validation | **Pending final release qualification** |
+| VM validation | **Passed on the current build** |
+| Physical hardware / USB | **Internally tested on tested hardware** |
+| AppArmor | **Validated available** |
+| nftables | **Validated available** |
+| Curated tool index | **44 indexed cybersecurity entries reviewed** |
+
+Physical-hardware testing applies to the hardware actually tested and is not a universal compatibility certification. Wi‑Fi, graphics, audio, storage, firmware and power-management behavior can vary by device.
+
+### Tool validation
+
+The current internal 5.3 audit covered **44 indexed cybersecurity tool entries** and completed without a tool-index miss/warn in that validation run. This describes the tested index, not a claim that every upstream tool or every possible workflow has been externally certified.
+
+### Original T‑PHANTOM tools
+
+Project-specific cybersecurity tools designed and programmed for T‑PHANTOM are being introduced progressively after testing and stability validation. Not every private/development tool is included in the public 5.3 release unless explicitly documented as released.
 
 ---
 
@@ -159,8 +184,6 @@ Arabic support is part of the product identity, not an afterthought. T‑PHANTOM
 - 30 GB+ storage recommended
 - UEFI-capable system recommended on modern hardware
 - USB drive large enough for the ISO when creating installation media
-
-Hardware support varies by chipset and device. Physical-hardware testing remains part of final release qualification.
 
 ---
 
@@ -177,10 +200,11 @@ Hardware support varies by chipset and device. Physical-hardware testing remains
 
 | Document | Purpose |
 |---|---|
-| [`DOWNLOAD.md`](DOWNLOAD.md) | Official download and integrity verification |
+| [`DOWNLOAD.md`](DOWNLOAD.md) | Official downloads and checksum verification |
+| [`RELEASE_NOTES_5.3.md`](RELEASE_NOTES_5.3.md) | T‑PHANTOM OS 5.3 release notes |
 | [`docs/INSTALLATION.md`](docs/INSTALLATION.md) | Installation guide |
 | [`docs/INSTALLATION_AR.md`](docs/INSTALLATION_AR.md) | دليل التثبيت بالعربية |
-| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Project architecture and design principles |
+| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Architecture and design principles |
 | [`FAQ.md`](FAQ.md) | Frequently asked questions |
 | [`ROADMAP.md`](ROADMAP.md) | Planned development |
 | [`CHANGELOG.md`](CHANGELOG.md) | Release history |
@@ -188,14 +212,7 @@ Hardware support varies by chipset and device. Physical-hardware testing remains
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contribution guidelines |
 | [`RELEASE_CHECKLIST.md`](RELEASE_CHECKLIST.md) | Release qualification checklist |
 | [`NOTICE.md`](NOTICE.md) | Licensing and third-party notices |
-
----
-
-## Current validated capabilities
-
-The current release line has been tested for core OS identity, Arabic/English locale availability, AppArmor availability, nftables availability, T‑PHANTOM desktop identity, installer flow, and the curated tool index used in the current build.
-
-Project qualification deliberately separates **tested** behavior from **planned** behavior. A feature is not described as validated until it has passed a reproducible test.
+| [`SHA256SUMS`](SHA256SUMS) | Published checksum |
 
 ---
 
@@ -215,8 +232,9 @@ T‑PHANTOM OS includes or may integrate security tools that can affect computer
 **Design & Development: Eng. Talal Fawaz Al‑Sohimiy**
 
 [![GitHub](https://img.shields.io/badge/GitHub-En--Talal--ALSohimiy-181717?style=for-the-badge&logo=github)](https://github.com/En-Talal-ALSohimiy)
-[![Email](https://img.shields.io/badge/Email-en.talal.alsohimiy%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:en.talal.alsohimiy@gmail.com)
-[![Contact](https://img.shields.io/badge/Contact-0544473041-35D8DC?style=for-the-badge)](#developer)
+[![Email](https://img.shields.io/badge/Email-talal%40talalsuhaimi.com-EA4335?style=for-the-badge)](mailto:talal@talalsuhaimi.com)
+[![Website](https://img.shields.io/badge/Website-talalsuhaimi.com-35D8DC?style=for-the-badge)](https://talalsuhaimi.com)
+[![SourceForge](https://img.shields.io/badge/SourceForge-T--PHANTOM%20OS-FF6600?style=for-the-badge&logo=sourceforge&logoColor=white)](https://sourceforge.net/projects/t-phantom-os/)
 
 **Saudi Arabia**
 
@@ -229,6 +247,6 @@ T‑PHANTOM OS includes or may integrate security tools that can affect computer
 ### T‑PHANTOM OS
 **Security · DFIR · Authorized Pentest · Reverse Engineering · Privacy**
 
-*Built with a security-first, evidence-driven release process.*
+*Security-first. Evidence-driven. Bilingual by design.*
 
 </div>
